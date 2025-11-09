@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Topics | RebootEarth</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #2e8b57;
+      padding: 1rem 2rem;
+      color: white;
+    }
+
+    nav .logo img {
+      height: 40px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem;
+      background: #e0f7e9;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    .section {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    .section h2 {
+      color: #2e8b57;
+      margin-bottom: 1rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: #e0f7e9;
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #2e8b57;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="Logo.jpeg" alt="RebootEarth Logo" /></a>
+    </div>
+    <ul>
+      <li><a href="topics.html">Topics</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="community.html">Community</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Explore Our Topics</h1>
+    <img src="3.png" alt="Topics Overview" />
+  </section>
+
+  <!-- Circular Economy Section -->
+  <section class="section" id="circular">
+    <h2>Circular Economy</h2>
+    <div class="cards">
+      <a href="circular1.html" class="card-link"><div class="card"><h3>What is Circular Economy?</h3></div></a>
+      <a href="circular2.html" class="card-link"><div class="card"><h3>Circular Design & Lifecycle</h3></div></a>
+      <a href="circular3.html" class="card-link"><div class="card"><h3>Waste to Resource</h3></div></a>
+      <a href="circular4.html" class="card-link"><div class="card"><h3>Local Solutions</h3></div></a>
+      <a href="circular5.html" class="card-link"><div class="card"><h3>Business Models</h3></div></a>
+      <a href="circular6.html" class="card-link"><div class="card"><h3>Youth Engagement</h3></div></a>
+    </div>
+  </section>
+
+  <!-- Green Entrepreneurship Section -->
+  <section class="section" id="entrepreneurship">
+    <h2>Green Entrepreneurship</h2>
+    <div class="cards">
+      <a href="green1.html" class="card-link"><div class="card"><h3>What is Green Entrepreneurship?</h3></div></a>
+      <a href="green2.html" class="card-link"><div class="card"><h3>Eco-Innovation & Startups</h3></div></a>
+      <a href="green3.html" class="card-link"><div class="card"><h3>Sustainable Models</h3></div></a>
+      <a href="green4.html" class="card-link"><div class="card"><h3>Funding & Investment</h3></div></a>
+      <a href="green5.html" class="card-link"><div class="card"><h3>Digital Tools & Youth</h3></div></a>
+      <a href="green6.html" class="card-link"><div class="card"><h3>Policy & Careers</h3></div></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 RebootEarth | Built by Vaishnav</p>
+  </footer>
+
+</body>
+</html>
